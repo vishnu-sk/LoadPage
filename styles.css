@@ -1,0 +1,25 @@
+*{ margin: 0px;}
+.header-logo{
+    height: 100px; width: 100px;
+    margin: 10px 5px 5px 5px;    
+    display: flex; align-items: center;
+}
+.header-logotext{
+    font-family: Roboto; font-size: 24px; font-weight:bold;
+    margin: 0 15px 0 0;
+ }
+img{
+    width: 80%; height:80%; filter: drop-shadow(0px 1px 0px #f0f8ff);
+    flex: 1 0 100px; mix-blend-mode:difference; 
+}
+.header-container{
+    background-color: #1F2937;
+    /* overflow: hidden; */
+    color: #F9FAF8;
+    display: flex;
+    align-items: center; 
+}
+.header-link{
+    text-decoration: none; color: #E5E7EB;
+    font-family: Roboto; font-size: 18px;
+}
