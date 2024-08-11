@@ -36,7 +36,7 @@
     flex: 1 1 0;  display: flex; justify-content: center;
 }
 .mainimage-class img{
-     max-width: 80%;;  flex: 1; object-fit: contain;
+     max-width: 80%; flex: 1; object-fit: contain;
 }
 
 .headerinfo-text-container
@@ -63,12 +63,63 @@
 
 /* Random information section */
 .random-container{
-    display: flex; flex-direction: column; align-items: center; padding: 0 300px;
+    display: flex; flex-direction: column; align-items: center; padding: 50px 350px;
+}
+.random-list-container{
+    display: flex; flex: 1; justify-content:space-around; padding-left: 0px;
+}
+.random-list-item{
+    display: flex; flex-direction: column; align-items:center; 
 }
 .random-main-text{
-    font-size: 36px; font-weight: 900; color: #1F2937; padding: 30px;
+    font-size: 36px; font-weight: 900; color: #1F2937; padding: 50px;
 }
 .random-img
 {
-    border: #3882F6; border-radius: 5px;
+    width:80%; height: 0px; padding-bottom: 80%; 
+    border: #3882F6 solid; border-radius: 20px;
+}
+.random-subtext{
+    padding: 20px; text-align: center;
+}
+/* Quote section */
+.quote-container
+{
+    background-color: #E5E7EB;
+    padding: 50px 400px; display: flex; flex-direction: column; align-items: flex-end;
+}
+.quote-main-text, .quote-author
+{
+    font-size: 36px; font-weight: 300; font-style: italic; color: #1F2937;
+}
+.quote-author{
+    font-weight: 700;
+}
+/* Call for action section */
+.callaction-container
+{
+    background-color: #F9FAF8; display: flex; justify-content: center;
+     padding: 80px 300px; 
+}
+.callaction-color{
+    background-color: #3882F6; color: #F9FAF8;
+    width: 100%; padding: 30px 0; border-radius: 10px; display: flex;
+    justify-content: space-around; 
+}
+.callaction-main-text{
+    font-size: 30px; font-weight: 700; padding: 5px 0;
+}
+.callaction-subtext
+{
+    font-size: 25px; font-weight: 300; 
+}
+.sign-up
+{
+    border-style: none; border-radius: 10px;
+    width: 10%; color: #F9FAF8; border: 2px solid #F9FAF8;
+    background-color: #3882F6; font-weight: 800; font-size: 20px;
+}
+.sign-up:hover{
+    background-color: #F9FAF8; border: 2px solid #F9FAF8;
+    color: #3882F6;
 }
