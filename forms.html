@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -15,26 +16,26 @@
 <body>
     <div class="container">
         <h1>Sign up Form</h1>
-        <div class="form-container">
+        <form class="form-container" action="/LoadPage/index.html">
             <div class="input">
                 <label>First Name: </label>
-                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="First Name" required>
             </div>
             <div class="input">
                 <label>Last Name: </label>
-                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Last Name" required>
             </div>
             <div class="input">
                 <label>Email address: </label>
-                <input type="email" placeholder="mailid@domain.com">
+                <input type="email" placeholder="mailid@domain.com" required>
             </div>
             <div class="input">
                 <label>Phone number: </label>
-                <input type="text" placeholder="10 digit phone no:">
+                <input type="text" placeholder="10 digit phone no:" required>
             </div>
             <div class="input">
                 <label>Password: </label>
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password" required>
             </div>
             <div class="input">
                 <label>Select a car: </label>
@@ -62,11 +63,11 @@
             </div>
             <div class="input" id="submit">
                 <input type="submit" value="Submit">
-            </div>        
+            </div>
             <div class="input" id="reset">
                 <input type="reset" value="Reset">
-            </div>          
-        </div>
+            </div>
+        </form>
     </div>
 </body>
 

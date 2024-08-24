@@ -27,10 +27,15 @@ h1 {
 .input {
     display: flex;
     width: 100%;
-    height: 30px;
-    align-items: center;
+    height: 1.8em;
+    align-items: flex-start;
     justify-content: left;
     padding-top: 8px;
+}
+
+.input input {
+    height: 80%;
+    border-radius: 3px;
 }
 
 label {
@@ -78,5 +83,17 @@ select {
     border: 1px solid #3882F6;
 }
 
-#updates {padding:35px 20% 20px; display: inline-block; margin-left: auto;}
-#updates input {width: 10%;}
+#updates {
+    padding: 35px 20% 20px;
+    display: inline-block;
+    margin-left: auto;
+}
+
+#updates input {
+    width: 10%;
+}
+
+p {
+    display: inline;
+    padding-right: 360px
+}
