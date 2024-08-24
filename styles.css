@@ -60,6 +60,10 @@
     color: #F9FAF8; font-weight: 600; width: 25%;
     
 }
+.headerinfo-button:hover
+{
+    color: #3882F6; background-color: #F9FAF8;
+}
 
 /* Random information section */
 .random-container{

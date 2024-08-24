@@ -67,7 +67,7 @@ select {
 #submit input,
 #reset input {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color:#f0f8ff;
     font-weight: 600;
     font-size: 20px;
     height: 1.8em;
@@ -79,7 +79,7 @@ select {
 #submit input:hover,
 #reset input:hover {
     color: #3882F6;
-    background-color: #E5E7EB;
+    background-color: #f0f8ff;
     border: 1px solid #3882F6;
 }
 
