@@ -23,4 +23,4 @@ function secondChange() {
   }
 }
 
-// interval(secondChange,1000);
+interval(secondChange,1000);
