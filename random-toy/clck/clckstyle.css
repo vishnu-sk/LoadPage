@@ -47,7 +47,7 @@ body {
 .hour {
   width: 8px;
   transform: rotate(20deg);
-  transform-origin: 300px 50%;
+  transform-origin: 0px 0%;
 }
 .second {
   width: 1px;
